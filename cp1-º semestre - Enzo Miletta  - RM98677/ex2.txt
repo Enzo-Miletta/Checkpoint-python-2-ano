@@ -1,0 +1,22 @@
+Questão 2
+a) Inserção constante no meio de uma lista grande:
+
+Lista encadeada (duplamente encadeada)
+Justificativa: Inserção no meio é O(1) após encontrar o nó, enquanto arrays exigem deslocamento de elementos (O(n)).
+
+b) Buscas frequentes e rápidas por chaves específicas:
+
+Tabela Hash
+Justificativa: Busca, inserção e remoção geralmente O(1), ideal para acesso por chave.
+c) Inserção e busca rápidas, ordem não importa:
+
+Tabela Hash
+Justificativa: Inserção e busca O(1), ordem dos elementos não é relevante.
+d) Elementos sempre ordenados e acesso rápido ao menor:
+
+Min-Heap
+Justificativa: Inserção O(log n), acesso ao menor O(1), remoção do menor O(log n).
+e) Acesso frequente por índice, poucas inserções/remoções:
+
+Lista (array/vetor)
+Justificativa: Acesso por índice O(1), inserção/remoção raras não impactam desempenho.

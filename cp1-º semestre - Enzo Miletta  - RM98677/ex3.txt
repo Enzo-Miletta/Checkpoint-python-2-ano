@@ -1,0 +1,5 @@
+Questão 3
+
+O codigo resolve um "Gerenciamento de colisões em tabelas hash" utilizando "Rehashing com Heap"
+
+A resposta das duas perguntas é a opção c, c.
